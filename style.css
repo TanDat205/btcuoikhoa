@@ -76,25 +76,22 @@ html{
     display: block;
     width: 100%;
     padding-top: 63px;
-    z-index: 1;
     height: 600px;
 }
 
-.slide{
-    z-index: 1;
-}
 
 .slideshow img{
     margin: 0 auto;
 }
 .caption{
-    z-index: 1;
     margin-top: -200px;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+.options{
 
+}
 .options-box{
     background: #FFB800;
     height: 40px;
@@ -175,8 +172,11 @@ html{
 }
 
 .head{
-    display: flex;
+    display: block;
     justify-content: center;
     text-align: center;
-    font-size: 40px;
+}
+.head h1{
+    padding: 10px;
+    font-size: 30px;
 }
