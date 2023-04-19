@@ -73,37 +73,33 @@ html{
 }
 
 .slideshow{
+    display: block;
     width: 100%;
     padding-top: 63px;
     z-index: 1;
     height: 600px;
 }
 
+.slide{
+    z-index: 1;
+}
+
 .slideshow img{
     margin: 0 auto;
 }
-
 .caption{
-    position: relative;
-    display: flex;
+    z-index: 1;
+    margin-top: -200px;
     justify-content: center;
     align-items: center;
-    z-index: 2;
-    margin-top: -150px;
+    text-align: center;
 }
 
-.options button{
-    height: 100px;
-    width: 150px;
-    border: solid 0;
-    margin-right: -3.2px;
-    font-weight: 900;
-    color: #FFFFFF;
-}
-
-.options .float{
-    background-color: #FFB800;
-    opacity: 0.5;
+.options-box{
+    background: #FFB800;
+    height: 40px;
+    width: 50px;
+    margin-left: 500px;
 }
 
 .main{
