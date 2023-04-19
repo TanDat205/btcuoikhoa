@@ -76,6 +76,7 @@ html{
     width: 100%;
     padding-top: 63px;
     z-index: 1;
+    height: 600px;
 }
 
 .slideshow img{
