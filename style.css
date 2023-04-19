@@ -184,8 +184,19 @@ html{
     margin-top: 30px;
 }
 
-.under{
+.bet{
     margin-top: -3px;
     background: purple;
-    height: 40px;
+    height: 440px;
+}
+
+.inf{
+    margin-top: -3px;
+    background: purple;
+    padding: 5px;
+}
+
+.inf-1{
+    display: flex;
+    justify-content: start;
 }
