@@ -180,3 +180,12 @@ html{
     padding: 10px;
     font-size: 30px;
 }
+.head img{
+    margin-top: 30px;
+}
+
+.under{
+    margin-top: -3px;
+    background: purple;
+    height: 40px;
+}
