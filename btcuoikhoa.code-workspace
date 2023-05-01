@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "btcuoikhoa",
+			"path": "."
+		},
+		{
+			"name": "fontawesome-web",
+			"path": "../../fontawesome-web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "btcuoikhoa"
+	}
+}
