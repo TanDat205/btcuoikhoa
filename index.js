@@ -20,7 +20,7 @@ let products = {
     ]
 }
 
-let products = localStorage.getItem("product") ? JSON.parse(localStorage).getItem("product"):[]
+let product = localStorage.getItem("product") ? JSON.parse(localStorage).getItem("product"):[]
 
 for (let items of products){
     let card = document.createElement("div")
