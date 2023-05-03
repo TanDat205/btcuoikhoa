@@ -58,8 +58,10 @@ header .bar a:hover{
     margin-right: 40px;
 
 }
-.header .opt p{
+.header .opt a{
     margin-left: 5px;
+    text-decoration: none;
+    color: white;
 }
 
 .header .opt ul{
@@ -119,10 +121,14 @@ header .bar{
 .read{
     margin: 0px 0 0 30px;
 }
-.post{
+
+.post a{
     display: flex;
+    text-decoration: none;
     align-items: center;
     margin-top: 20px;
+    color: black;
+    font-size: 15px;
 }
 
 button{
@@ -155,10 +161,14 @@ main {
     background-color: #eee;
     padding: 10px;
     margin: 10px;
-    flex-basis: calc(33.33% - 40px);
+    flex-basis: calc(25% - 40px);
+}
+
+.product span{
+    display: flex;
 }
 .product img{
-    width: 100%;
+    width: 100%; 
 }
 
 .add-to-cart {
